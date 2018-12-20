@@ -187,7 +187,7 @@ ol li:hover
 }
 
 .my-background {
-	background: url(../img/cactus-tiny.jpeg) no-repeat center center fixed; 
+	background: url(../img/cactus-tiny-blur.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
