@@ -48,7 +48,6 @@
 		
 		<div id="info-section" class="hidden">
 			<div class="information ">
-				<br>
 				<b>Say hi</b>
 				<p><a href="mailto:ryan@kristiankirk.com" target="_top">ryan@kristiankirk.com</a></p>
 				<p>Pittsburgh, USA</p>
@@ -57,6 +56,9 @@
 	
 	<div class="wrap">
 		<div class="left sidebar">
+			<p>CATHEDRAL <b>MAGAZINE</b></p>
+			
+			<br>
 			<div class="has-new-button textbox">
 				<span class="new-button">NEW ➞</span>
 				<p>Ryan Scheuer</p>
@@ -136,11 +138,13 @@
 		</div>
 		
 		<div class="right">
+			<br>
+			<br>
 			<div id="rightcol">
-				<img class="lazy" src="img/beach.jpg" alt="" />
+				<img class="lazy" src="img/cactus-sm.jpeg" alt="" />
 				<div class="columns">
 					<div class="column">
-						
+						<p class="textbox">READ ➞</p>
 					</div>
 					<div class="column is-two-thirds">
 						<p class="textbox">
@@ -151,11 +155,11 @@
 				</div>
 				
 				<div class="columns">
-					<div class="column">
+					<div class="column is-two-thirds">
 						<img src="img/nature.jpg" alt="" />
 					</div>
 					<div class="column">
-						
+					<div class="textbox small-text"><span>Nice </span><span><b>cactus</b></span></div>
 					</div>
 				</div>
 				
@@ -170,12 +174,14 @@
 		    $("#show-info").click(function(){
 		        $("#info-section").toggleClass('hidden');
 		        $("#rightcol").toggleClass('hidden');
-		        $("html").toggleClass('my-gradient');;
+		        $("html").toggleClass('my-background');
+		        $(".info-instagram").toggleClass('black-bg');
 		    }); 
 		    $("#read-more").click(function(){
 		        $("#info-section").toggleClass('hidden');
 		        $("#rightcol").toggleClass('hidden');
-		        $("html").toggleClass('my-gradient');;
+		        $("html").toggleClass('my-background');
+		        $(".info-instagram").toggleClass('black-bg');
 		    }); 
 		});
 	</script>

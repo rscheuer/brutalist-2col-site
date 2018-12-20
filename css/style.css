@@ -9,7 +9,8 @@ body {
 html {
      /*background: rgb(255,117,0)!important;*/
      background-color: #C3C3C3!important;
-      
+     
+     
    }
    
    
@@ -153,12 +154,17 @@ ol li:hover
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 
-/* TOP LINKS */
+/* TOP LINKS INFO INSTAGRAM */
 .info-instagram {
 	position: absolute;
 	top: 20px;
 	right: 10px;
 	text-align: right;
+}
+
+.black-bg {
+	background-color: black;
+	color: #C3C3C3!important;
 }
 
 .info-instagram span{
@@ -180,6 +186,14 @@ ol li:hover
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77b44b', endColorstr='#ff7500',GradientType=0 ); /* IE6-9 */
 }
 
+.my-background {
+	background: url(../img/cactus-tiny.jpeg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 
 /* INFO */
 
@@ -188,6 +202,10 @@ ol li:hover
 	top: 50%;
 	left: 40%;
 	text-align: center;
+	background-color: #FF1700;
+	padding: 15px;
+	border-radius: 10px;
+	z-index: 10;
 }
 
 .hidden {
@@ -299,7 +317,7 @@ ol li:hover
   	top: 50%;
   	left: 20%;
   	text-align: center;
-  	background-color: rgba(255, 255, 255, 0.9);
+  	background-color: #FF1700;
   	padding: 15px;
   	border-radius: 10px;
   	z-index: 10;
@@ -335,7 +353,7 @@ ol li:hover
 		top: 50%;
 		left: 20%;
 		text-align: center;
-		background-color: rgba(255, 255, 255, 0.9);
+		background-color: #FF1700;
 		padding: 15px;
 		border-radius: 10px;
 		z-index: 10;
